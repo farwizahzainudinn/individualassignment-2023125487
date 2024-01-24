@@ -1,0 +1,178 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: TW Cen MT;
+  padding: 10px;
+  background: rgb(228, 165, 165);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #b94c4c;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 21px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #0000ffff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  font-size: 15px;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  font-size: 15px;
+  background-color: rgb(228, 165, 165);
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(228, 165, 165);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+</head>
+<body>
+<title>Biodata</title>
+<div class="header">
+  <h1><b>FARWIZAH ZAINUDIN<b></h1>
+  <p><marquee loop="20">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</marquee loop="20"></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home Page</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <iframe style="float:right"src="https://free.timeanddate.com/clock/i8o2p3bw/n122/tlmy/fn2/fs16/fcfff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/tm1/th1/ta1/tb4" frameborder="0" width="178" height="65"></iframe>
+
+</div>
+  <div class="leftcolumn">
+    <div class="card">
+    <h2><b>Biodata<b></h2>
+    <ul style=“list-style-type:>
+    <li><p><i>Name:<i> Farwizah Binti Zainudin</p></li>
+	<li><p><i>Age:<i> 23 Years Old</p></li>
+	<li><p><i>From:<i> <a href="https://www.google.com/maps/place/Kok+Lanas,+Ketereh,+Kelantan/@5.9039137,102.2169861,14z/data=!3m1!4b1!4m6!3m5!1s0x31b698190abc1c7b:0x5d9bef5f8abf8498!8m2!3d5.913658!4d102.245072!16s%2Fg%2F1221x_0y?entry=ttu">Kok Lanas, Kelantan</a></i><br>
+        <li><p><i>Weight:<i> 55 kg</p></li>
+        <li><p><i>Height:<i> 163 cm</p></li>
+        <li><p><i>Ambition:<i> Lecturer</p></li>
+        <li><p><i>Phone Number:<i> 016-9311526</p></li>
+        <li><p><i>Email:<i> 2023125487@student.uitm.edu.my</p></li>
+	  <br>
+	  <img src="gambar/profile.jpeg" alt="Biodata.jpeg" style="width:520px;height:800px;">
+<div class="footer">
+
+<footer>
+  <p>© Copyright | Farwizah Binti Zainudin<br>
+  <p></p><a>2023125487 | BA2403B</a></p>
+</footer>
+
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>♫ Assalamu Alayka</h2>
+      <audio controls autoplay muted>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="audio/assalamu alayka.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+    </div>
+    <div class="card">
+      <h3></h3>
+	  <p><a href="https://www.instagram.com/_farwizh">
+<img src="gambar/instagram.jpg" alt="logo instagram.jpg" width="220" height="120">
+</a></p>
+	  
+    </div>
+  </div>
+</div>
+</audio>
+</body>
+</html>

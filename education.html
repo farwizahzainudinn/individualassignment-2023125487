@@ -1,0 +1,177 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: TW Cen MT;
+  padding: 10px;
+  background: rgb(228, 165, 165);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #b94c4c;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 21px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: rgb(228, 165, 165);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  font-size: 15px;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  font-size: 15px;
+  background-color: rgb(228, 165, 165);
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(228, 165, 165);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+
+<body>
+<head>
+<title>Education</title>
+</head>
+<div class="header">
+  <h1><b>FARWIZAH ZAINUDIN<b></h1>
+  <p><marquee loop="20">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</marquee loop="20"></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home Page</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <iframe style="float:right"src="https://free.timeanddate.com/clock/i8o2p3bw/n122/tlmy/fn2/fs16/fcfff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/tm1/th1/ta1/tb4" frameborder="0" width="178" height="65"></iframe>
+
+</div>
+<div class="row">
+  <div class="leftcolumn">
+  <div>
+      <h2></h2>
+    </div>
+    <div class="card">
+      <h2><b>Education<b></h2>
+      <h5><i>“A child without education is like a bird without wings.” —Tibetan Proverb<i></h5>
+      <center>
+	  <img src="gambar/pasti.png" alt="PASTI" style="width:100px;height:100px;">
+      <p>2006 to 2007 - Pasti Little Huffaz</p><br>
+	  <img src="gambar/sk kok lanas.jpg" alt="skk" style="width:120px;height:120px;">
+      <p>2008 to 2013 - Sekolah Kebangsaan Kok Lanas</p>
+	  <img src="gambar/smka melor.png" alt="smaak" style="width:120px;height:120px;">
+      <p>2014 to 2018 - Sekolah Menengah Kebangsaan Agama Melor</p>
+	  <img src="gambar/uitm dungun.jpg" alt="uitm" style="width:120px;height:130px;">
+      <p>2019 to 2023 - Universiti Teknologi Mara Kampus Dungun</p>
+	  <img src="gambar/uitm kb.jpg" alt="uitm" style="width:120px;height:130px;">
+      <p>2023 till now - Universiti Teknologi Mara Kampus Kota Bharu</p>
+      </center>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+     <h2>♫ Deen Assalam</h2>
+      <audio controls autoplay muted>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="audio/deen assalam.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+    </div>
+    <div class="card">
+      <h3></h3>
+	  <p><a href="https://www.instagram.com/_farwizh">
+<img src="gambar/instagram.jpg" alt="logo instagram.jpg" width="220" height="120">
+</a></p>
+	  
+    </div>
+  </div>
+</div>
+</audio>
+</body>
+</html>
